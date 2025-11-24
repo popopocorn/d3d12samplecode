@@ -102,6 +102,7 @@ void CMeshFromFile::Render(ID3D12GraphicsCommandList *pd3dCommandList, int nSubS
 	else
 	{
 		pd3dCommandList->DrawInstanced(m_nVertices, 1, m_nOffset, 0);
+		
 	}
 }
 
